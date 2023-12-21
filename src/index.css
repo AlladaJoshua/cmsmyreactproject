@@ -1,68 +1,86 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0;
+  background-color: #EBFFE5;
+}
+
+.Navbar {
+  padding: 0 18.33px 0 95px;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  align-items: center;
+  background-color: #D9FFCF;
+  height: 69px;
+  width: 1920px; 
+  gap: 840px;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.logoAndButton {
+  display: flex;
+  align-items: center;
+  gap: 95px;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 49px;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+nav a {
+  text-decoration: none;
+  color: #000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+nav a:hover {
+  color: #126912;
+}
+
+.logoutBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98px;
+  height: 40px;
+
+  border-radius: 5px;
+  border: 1px solid rgba(14, 59, 3, 0.25);
+  background: #EBFFE5;
+}
+
+.headerTitle {
+  display: flex;
+  width: 1920px;
+  padding: 0px 148px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+  margin-top: 65px;
+}
+
+.headerTitle hr {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.headerTitle h1  {
+  color: #000;
+
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inter;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
