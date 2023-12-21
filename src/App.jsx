@@ -1,3 +1,4 @@
+import Certification from "./Components/Certification"
 import HeaderTitle from "./Components/HeaderTitle"
 import Navbar from "./Components/Navbar"
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Navbar/>
       <HeaderTitle/>
+      <Certification/>
     </>
   )
 }

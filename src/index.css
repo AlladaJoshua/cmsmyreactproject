@@ -6,6 +6,11 @@
 
 body {
   background-color: #EBFFE5;
+  display: flex;
+  width: 1920px;
+  height: 1080px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Navbar {
@@ -82,5 +87,39 @@ nav a:hover {
   font-size: 52px;
   font-style: normal;
   font-weight: 700;
+  line-height: normal;
+}
+
+.certification {
+  display: flex;
+  width: 1920px;
+  padding: 0px 180px 0px 181px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 65px 136px;
+  flex-wrap: wrap;
+  margin-top: 65px;
+}
+
+.certification .certPlaceholder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.certification .certPlaceholder img {
+  width: 429px;
+  height: 268px;
+}
+
+.certification .certPlaceholder p {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
   line-height: normal;
 }
