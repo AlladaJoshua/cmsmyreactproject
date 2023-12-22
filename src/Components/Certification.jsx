@@ -4,7 +4,7 @@ import certPlaceholder from "../assets/Certificate-Joshua Allada.png";
 const Certification = () => {
   return (
     <div>
-      <seection className="certification">
+      <section className="certification">
         <section className="certPlaceholder">
           <img src={certPlaceholder} alt="certPlaceholder" />
           <p>Certification Title</p>
@@ -29,7 +29,7 @@ const Certification = () => {
           <img src={certPlaceholder} alt="certPlaceholder" />
           <p>Certification Title</p>
         </section>
-      </seection>
+      </section>
     </div>
   );
 };

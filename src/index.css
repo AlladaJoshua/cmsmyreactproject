@@ -19,8 +19,7 @@ body {
   align-items: center;
   background-color: #D9FFCF;
   height: 69px;
-  width: 1920px; 
-  gap: 840px;
+  gap: 630px;
   position: fixed;
   overflow: hidden;
   top: 0;
@@ -46,13 +45,23 @@ nav a {
   font-family: Inter;
   font-size: 24px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 300;
   line-height: normal;
+  width: 155px;
+  text-align: center;
+  
+}
+
+nav a:nth-child(1) {
+  color: #126912;
+  font-weight: 700;
 }
 
 nav a:hover {
   color: #126912;
+  font-weight: 700;
 }
+
 
 .logoutBtn {
   display: flex;
@@ -64,11 +73,11 @@ nav a:hover {
   border-radius: 5px;
   border: 1px solid rgba(14, 59, 3, 0.25);
   background: #EBFFE5;
+  cursor: pointer;
 }
 
 .headerTitle {
   display: flex;
-  width: 1920px;
   padding: 0px 148px;
   flex-direction: column;
   align-items: flex-start;
@@ -95,7 +104,6 @@ nav a:hover {
 
 .certification {
   display: flex;
-  width: 1920px;
   padding: 0px 180px 0px 181px;
   justify-content: center;
   align-items: center;
@@ -125,4 +133,34 @@ nav a:hover {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+/* Media Query for screens up to 600px */
+@media (max-width: 600px) {
+  body {
+    width: 600px;
+  }
+  nav a {
+    display: none;
+  }
+  .Navbar {
+    padding: 0 10px;
+    gap: 155px;
+  }
+
+  .headerTitle {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+  }
+
+  .headerTitle hr {
+    width: 90%;
+  }
+
+  .certification {
+   width: 600px;
+   padding: 0px 50px 0px 50px;
+  }
 }
