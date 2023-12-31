@@ -51,7 +51,6 @@
   .hamburger-menu.open {
     align-items: flex-end;
     background-color: white;
-    right: 0;
     width: 100%;
   }
 
