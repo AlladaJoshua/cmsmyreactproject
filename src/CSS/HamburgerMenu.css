@@ -70,7 +70,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 600px;
+    width: 100%;
   }
 
   .logoutBtn_Mobile {
