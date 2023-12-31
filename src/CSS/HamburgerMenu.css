@@ -51,7 +51,8 @@
   .hamburger-menu.open {
     align-items: flex-end;
     background-color: white;
-    right: -10px;
+    right: 0;
+    width: 100%;
   }
 
   .hamburger-menu.open .bar:nth-child(1) {
@@ -70,7 +71,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
   }
 
   .logoutBtn_Mobile {
