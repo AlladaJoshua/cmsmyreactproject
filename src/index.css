@@ -143,7 +143,7 @@ nav a:hover {
 /* Media Query for screens up to 600px */
 @media (max-width: 600px) {
   body {
-    width: 600px;
+    width: 100%;
   }
   nav a {
     display: none;
