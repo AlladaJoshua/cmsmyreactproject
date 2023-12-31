@@ -18,6 +18,7 @@ body {
   display: flex;
   align-items: center;
   background-color: #D9FFCF;
+  width: 1920px;
   height: 69px;
   gap: 630px;
   position: fixed;
@@ -135,6 +136,10 @@ nav a:hover {
   line-height: normal;
 }
 
+.hamburger-menu {
+  display: none;
+}
+
 /* Media Query for screens up to 600px */
 @media (max-width: 600px) {
   body {
@@ -162,5 +167,13 @@ nav a:hover {
   .certification {
    width: 600px;
    padding: 0px 50px 0px 50px;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .logoutBtn {
+    display: none;
   }
 }

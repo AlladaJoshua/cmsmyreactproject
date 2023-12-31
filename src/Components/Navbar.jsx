@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/TsukidenLogo.png";
 import userImage from "../assets/Male User.png"
+import HamburgerMenu from "./HamburgerMenu";
 
 const Navbar = () => {
   return (
@@ -16,6 +17,7 @@ const Navbar = () => {
           </nav>
         </section>
         <button className="logoutBtn">Logout</button>
+        <HamburgerMenu/>
       </section>
     </div>
   );
