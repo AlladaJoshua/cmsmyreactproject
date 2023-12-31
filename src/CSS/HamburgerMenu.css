@@ -49,8 +49,9 @@
   }
 
   .hamburger-menu.open {
-    align-items: flex-end;
+    align-items: center;
     background-color: white;
+    right: 0;
     width: 100%;
   }
 
@@ -70,6 +71,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
 
   .logoutBtn_Mobile {
